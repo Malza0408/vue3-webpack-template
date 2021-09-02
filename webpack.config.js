@@ -67,7 +67,7 @@ module.exports = {
         from: 'static',
       }, ],
     }),
-    new VueLoaderPlugin()
+    new VueLoaderPlugin(),
   ],
   devServer: {
     host: 'localhost',

@@ -1,11 +1,11 @@
 <template>
   <h1>{{ message }}</h1>
   <HelloWorld />
-</template> 
+</template>
 
 <script>
 import HelloWorld from '~/components/HelloWorld'
-
+ 
 export default {
   components: {
     HelloWorld
